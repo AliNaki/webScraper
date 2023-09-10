@@ -43,6 +43,14 @@ def main():
             fw.write(headers)
             reviews = []
             for commentbox in commentboxes:
+
+                try:
+                    product = flipkart_html.find_all(
+                        "div", {"class": "_4rR01T"})[0].text
+
+                except:
+                    logging.info("product")
+
                 try:
                     name = commentbox.div.div.find_all(
                         'p', {'class': '_2sc7ZR _2V5EHH'})[0].text
@@ -69,7 +77,7 @@ def main():
                 except Exception as e:
                     logging.info(e)
 
-                mydict = {"Product": searchString, "Name": name, "Rating": rating, "CommentHead": commentHead,
+                mydict = {"Product": product, "Name": name, "Rating": rating, "CommentHead": commentHead,
                           "Comment": custComment}
                 reviews.append(mydict)
             logging.info("log my final maincss {}".format(reviews))
