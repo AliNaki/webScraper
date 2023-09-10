@@ -1,0 +1,92 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.50:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:40:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:40:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:40:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:40:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:40:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:40:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.50:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:43:21] "GET / HTTP/1.1" 200 -
+INFO:root:400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:43:28] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.50:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:44:58] "GET / HTTP/1.1" 200 -
+INFO:root:400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:45:01] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.50:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:46:14] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'realme1', 'Name': 'Soumen  Patra', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Very Nyc.... \U0001f618\U0001f44c\U0001f44c\U0001f44c\U0001f44c'}, {'Product': 'realme1', 'Name': 'Raja Babu', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Looking very nice and good smart phone \U0001f933\U0001f933\U0001f933'}, {'Product': 'realme1', 'Name': 'Prince Kumar', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Design are Awesome, sound is not too much good but satisfied \U0001f642'}, {'Product': 'realme1', 'Name': 'Pritam Dubey', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Thanku Flipkart. This Products is very nice and his look is very beautiful and all is perfect. Thanku.'}, {'Product': 'realme1', 'Name': 'Flipkart Customer', 'Rating': '3', 'CommentHead': 'Just okay', 'Comment': 'Nice phone and value for money\U0001f329\ufe0f\U0001fae1'}, {'Product': 'realme1', 'Name': 'Kaif Sidd', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Excellent \U0001f44d'}, {'Product': 'realme1', 'Name': 'Kavita Kumari', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': "It's design awesome and it looks amazing \U0001f60a"}, {'Product': 'realme1', 'Name': 'Aman kumar', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Nice phone , camera is not so good as expected.look wise superb as compared to this range of phone. At this price range phone is so good'}, {'Product': 'realme1', 'Name': 'Tukaram  Irappa B', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Mind blowing, camera \U0001f4f7\U0001f4f7\U0001f4f7 superMy first 5G Android phone , I loved it so much for its best performance'}, {'Product': 'realme1', 'Name': 'Rishe Varma', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Very nice \U0001f44d'}, {'Product': 'realme1', 'Name': 'Rishe Varma', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Very nice \U0001f44d'}]
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:46:20] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:46:20] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:46:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:53:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.50:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:55:10] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final maincss [{'Product': 'iphone13', 'Name': 'Pushpita Mayra', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Awesome phone Excellent camera quality'}, {'Product': 'iphone13', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iphone13', 'Name': 'Rishi Raj', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Beast phone …. Camera is exceptionally best'}, {'Product': 'iphone13', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Happy to have this phone'}, {'Product': 'iphone13', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... \U0001f60d'}, {'Product': 'iphone13', 'Name': 'Shivang Palyal', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'This is awosome .. camera is best . Here some photos i m sharing with you guys ..'}, {'Product': 'iphone13', 'Name': 'Srinivash Bhoi', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Pros-rear Camera is awesome.double speaker sound equal loud and base is superb display superb. Design also good.Battery back up superb.Cons-front camera is good not awesomeAfter switching from android you feel one minus point is the display notch .'}, {'Product': 'iphone13', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Best of best'}, {'Product': 'iphone13', 'Name': 'Tulasiram SABBAVARAPU', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Best phone in recent times I have used in my life'}, {'Product': 'iphone13', 'Name': 'Peris Kumar Bhagat', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Great performance \U0001f970'}, {'Product': 'iphone13', 'Name': 'Peris Kumar Bhagat', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Great performance \U0001f970'}]
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:55:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 06:55:22] "[33mGET /main.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.50:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.50:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 07:01:56] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final maincss [{'Product': 'phone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Best in the market and price, low price but very useful device \U0001f618\U0001f600\U0001f600\U0001f600'}, {'Product': 'phone', 'Name': 'Lal babu Yaduwanshi', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Good camera'}, {'Product': 'phone', 'Name': 'Biswaranjan  Behera', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'In this price point good performance,and camera, Totally worth it.'}, {'Product': 'phone', 'Name': 'Ujjwal Kumar', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Nice mobile \U0001f44d\U0001f44dand ossam picture quality'}, {'Product': 'phone', 'Name': 'Prasenjit Singh', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Nice phone \U0001f4f1 for this price. All features is good'}, {'Product': 'phone', 'Name': 'Souvik  Rana', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Very good'}, {'Product': 'phone', 'Name': 'Rohit Dubey', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'This mobile is awesome'}, {'Product': 'phone', 'Name': 'Lipika Basak', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Good'}, {'Product': 'phone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Nice phone'}, {'Product': 'phone', 'Name': 'Niladri Biswas', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Vale for money \U0001f4b0'}, {'Product': 'phone', 'Name': 'Niladri Biswas', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Vale for money \U0001f4b0'}]
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 07:02:01] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 07:02:04] "[33mGET /main.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.50:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 07:11:44] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final maincss [{'Product': 'iphone', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer \U0001f44c\U0001f3fbIt will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Photos super'}, {'Product': 'iphone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.'}, {'Product': 'iphone', 'Name': 'Sonam Lama', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'very good camera quality'}, {'Product': 'iphone', 'Name': 'Sakshi Bharti', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Super\U0001f525 and good performance \U0001f44c\u2764\ufe0f'}, {'Product': 'iphone', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iphone', 'Name': 'Vikram rapolu', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Perfect Product!!'}]
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 07:11:50] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 07:11:52] "GET / HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final maincss [{'Product': 'phone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Best in the market and price, low price but very useful device \U0001f618\U0001f600\U0001f600\U0001f600'}, {'Product': 'phone', 'Name': 'Lal babu Yaduwanshi', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Good camera'}, {'Product': 'phone', 'Name': 'Biswaranjan  Behera', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'In this price point good performance,and camera, Totally worth it.'}, {'Product': 'phone', 'Name': 'Ujjwal Kumar', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Nice mobile \U0001f44d\U0001f44dand ossam picture quality'}, {'Product': 'phone', 'Name': 'Prasenjit Singh', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Nice phone \U0001f4f1 for this price. All features is good'}, {'Product': 'phone', 'Name': 'Souvik  Rana', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Very good'}, {'Product': 'phone', 'Name': 'Rohit Dubey', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'This mobile is awesome'}, {'Product': 'phone', 'Name': 'Lipika Basak', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Good'}, {'Product': 'phone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Nice phone'}, {'Product': 'phone', 'Name': 'Niladri Biswas', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Vale for money \U0001f4b0'}, {'Product': 'phone', 'Name': 'Niladri Biswas', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Vale for money \U0001f4b0'}]
+INFO:werkzeug:192.168.1.50 - - [10/Sep/2023 07:11:58] "POST /review HTTP/1.1" 200 -
