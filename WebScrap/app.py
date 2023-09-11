@@ -81,6 +81,12 @@ def main():
                           "Comment": custComment}
                 reviews.append(mydict)
             logging.info("log my final maincss {}".format(reviews))
+            ## database  mongodb
+            ## client = MongoClient("your url")
+              
+            ##db = client['scraper_web']
+            ##coll_web = db['scraperWeb']
+            ##coll_web.insert_many(reviews)
             return render_template('maincss.html', reviews=reviews[0:(len(reviews)-1)])
         except Exception as e:
             logging.info(e)
