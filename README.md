@@ -18,7 +18,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1 Clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/flask-review-analysis.git
+https://github.com/AliNaki/webScraper.git
 ```
 2 Install the required Python packages using pip.
 ```bash
